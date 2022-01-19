@@ -1,0 +1,69 @@
+h2{
+    margin-top: 80px;
+    margin-left: 200px;
+    letter-spacing: 2px;
+}
+.content {
+    position:relative;
+    text-align:justify;
+    letter-spacing: .2px;
+    text-transform:capitalize;
+    line-height: 20px;
+    width: 55%;
+    height:auto;
+    -webkit-margin-top-collapse:discard;
+    margin-left: 200px;
+    display: flex;
+    
+  }
+   .col2{
+      display: flex;
+      border: 2px soild green;
+      width: 40%;
+     
+  }
+  /* Styling the text content */
+  .style{
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height:25px;
+}
+
+  /* Adding Table */
+  .new{
+      margin-left: 10%;
+      margin-right: 10%;
+      text-align:justify;
+      margin-bottom: 40px;;
+  }
+  /* hide and show property */
+  .now{
+    background-color: cadetblue;
+  }
+  #customers {
+      
+  display: table;
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+#tabletitle{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+}
+#customers td, #customers th {
+  border: 1px solid rgb(92, 91, 91);
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f8f5f5;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #696b6a;
+  color: rgb(10, 9, 9);
+}
